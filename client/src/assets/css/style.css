@@ -1,0 +1,1418 @@
+.bglogo {
+    text-align: center;
+    margin: 5px;
+}
+
+.card-login.card img {
+    width: 200px;
+    margin: 10px auto 0;
+}
+
+.bglogo img {
+    width: calc(100% - 50px);
+    text-align: center;
+    margin: 0 auto;
+}
+
+.ReactTable .rt-th, .ReactTable .rt-td {
+    white-space: normal !important;
+    text-overflow: inherit !important;
+}
+
+/* .sidebar-wrapper>ul.nav>li.nav-item:last-child {
+    display: none;
+} */
+li.nav-item .hidden.nav-link, .hidden {
+    display: none !important;
+}
+
+.float-left {
+    float: left;
+}
+
+.card {
+    margin-top: 10px;
+}
+
+.pull-right {
+    float: right;
+}
+
+.pr-1, .pl-1 {
+    margin-bottom: 10px;
+}
+
+.table>:not(:first-child) {
+    border-top: none !important;
+}
+
+.clustering .ReactTable .col-12 {
+    width: 100% !important;
+}
+
+.react-select__single-value.css-qc6sy-singleValue {
+    position: absolute;
+    top: 5px !important;
+}
+
+.react-select__placeholder {
+    position: absolute;
+}
+
+.react-select__control {
+    position: relative;
+}
+
+.error {
+    color: #fb404b !important;
+    text-transform: none !important;
+    margin-bottom: 0 !important;
+}
+
+.has-success .form-control:focus {
+    border-color: #87cb16;
+    color: #87cb16;
+}
+
+.has-error .form-control:focus {
+    border-color: #fb404b;
+}
+
+.clustering h4, .clustering button.btn-default {
+    display: inline-block;
+    width: calc(100%/2 - 30px);
+    margin: 15px;
+}
+
+.clustering .card {
+    display: block !important;
+}
+
+.clustering .ReactTable .col-12 {
+    width: 100% !important;
+}
+
+.clustering .react-select__menu {
+    width: 192px !important;
+}
+
+.clustering .-center .justify-content-center .col-12.col-sm-6.col-md-6:last-child {
+    display: none;
+}
+
+.clustering .-center .justify-content-center>.col-12.col-sm-6.col-md-6 {
+    max-width: 100%;
+    flex: 0 0 100% !important;
+}
+
+.hrSweet {
+    border-top: solid #23ccef 4px;
+    margin: 10px 0;
+    padding-top: 10px;
+}
+
+.ct-chart.ct-perfect-fourth {
+    width: 40%;
+    margin: 0 auto !important;
+}
+
+#hiddenBtn {
+    display: none;
+}
+
+.dropzone {
+    text-align: center;
+    padding: 20px;
+    border: 3px dashed #eeeeee;
+    background-color: #fafafa;
+    color: #bdbdbd;
+    margin-bottom: 20px;
+}
+
+.imgUpload {
+    width: 160px;
+    margin-left: 20px;
+}
+
+.iconeUpload {
+    width: 32px;
+    margin-left: 20px;
+}
+
+/*.table-bl table.rt-table .react-select__single-value.css-qc6sy-singleValue {position: absolute;top: 5px!important;}
+.table-bl table.rt-table .react-select__placeholder {position: absolute;  }
+.table-bl table.rt-table .react-select__control{position: relative;}
+.table-bl table.rt-table .react-select__menu {
+    position: relative !important;
+    z-index: 999999999999999 !important;
+}*/
+.main-panel .content.display-clustring {
+    padding: 0;
+}
+
+.display-clustring .loader-container {
+    width: 100%;
+}
+
+.table-bl {
+    position: absolute
+}
+
+.table-dynamique .rt-tbody .rt-td {
+    height: 100px;
+}
+
+.table-bl>div {
+    position: relative;
+    width: 180px;
+}
+
+.react-pdf__Document.hidden {
+    margin-top: 5px;
+    clear: both;
+}
+
+.react-pdf__Document.hidden .react-pdf__Page__canvas {
+    margin: 0 auto;
+}
+
+.ct-perfect-fourth {
+    display: block;
+    position: relative;
+    width: 500px !important;
+    margin: 0 auto !important;
+}
+
+.react-pdf__Page, .image-bl {
+    width: 100%;
+    height: 350px;
+    overflow-x: hidden;
+    overflow: scroll;
+}
+
+.image-bl img {
+    width: 100%;
+}
+
+div#table-BL, div#table-BL-header {
+    width: 100%;
+}
+
+.totalMax {
+    text-align: right;
+    font-size: 30px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+#loaderTable {
+    margin: 0 auto;
+    width: 50px;
+    height: auto;
+}
+
+.responsive-BL .pagination-top {
+    display: none !important;
+}
+
+.responsive-BL .ReactTable th>div div {
+    display: none !important;
+}
+
+.responsive-BL thead.rt-thead.-header {
+    background-color: #23ccef !important;
+}
+
+.responsive-BL th {
+    color: #fff !important;
+}
+
+.page404.container-fluid {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 60px;
+    color: red;
+}
+
+.clear {
+    clear: both;
+    display: block;
+}
+
+.green {
+    border-color: green !important;
+}
+
+.red {
+    border-color: red !important;
+}
+
+.pdfExcel span button {
+    background-color: #3bb557;
+    color: #FFFFFF;
+    border-color: #11bfe3;
+    border: none;
+    border-radius: 4px;
+    margin-top: 24px;
+    padding: 6px 14px;
+    font-size: 16px;
+    float: right;
+}
+
+aside.uploadCSV .btn {
+    border-radius: 0;
+    height: 45px;
+    line-height: 1;
+    margin-top: 5px;
+}
+
+aside.uploadCSV {
+    justify-content: center;
+}
+
+.importCSV {
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.btn-bl {
+    display: block;
+}
+
+.ct-chart {
+    position: relative;
+}
+
+.ct-tooltip {
+    background: #3990ce !important;
+}
+
+.ct-tooltip:before {
+    border-top-color: #3990ce !important;
+}
+
+.chartist-tooltip {
+    position: absolute;
+    display: inline-block;
+    opacity: 0;
+    min-width: 5em;
+    padding: 0.5em;
+    background: red;
+    color: red;
+    font-family: Oxygen, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    pointer-events: none;
+    z-index: 1;
+    -webkit-transition: opacity 0.2s linear;
+    -moz-transition: opacity 0.2s linear;
+    -o-transition: opacity 0.2s linear;
+    transition: opacity 0.2s linear;
+}
+
+.chartist-tooltip:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    margin-left: -15px;
+    border: 15px solid transparent;
+    border-top-color: #ddd;
+}
+
+.chartist-tooltip.tooltip-show {
+    opacity: 1;
+}
+
+.loader-iframe {
+    width: 100% !important;
+}
+
+.icon-big i.fas.fa-chart-line, .icon-big i.fas.fa-user {
+    color: #294267;
+}
+
+span.ct-label.ct-horizontal.ct-end {
+    font-size: 11px !important;
+    text-transform: lowercase;
+}
+
+.scrollMenu {
+    position: fixed;
+    width: calc(100% - 320px);
+    z-index: 99999999;
+    top: 0px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(221, 221, 221) 1px 1px 6px 1px;
+    margin: 0px;
+    padding: 15px 15px 0px;
+}
+
+.visualiser .btn {
+    padding: 5px;
+}
+
+.img-file {
+    width: 100%;
+}
+
+label {
+    margin: 0;
+}
+
+.react-pdf__Page canvas {
+    margin: 0 auto;
+}
+
+.lastDate {
+    float: right;
+    font-size: 20px;
+    color: red;
+}
+
+.pop-up-bl {
+    width: calc(100% - 350px) !important;
+    overflow-y: scroll !important;
+}
+
+.pop-up-bl .table>thead>tr>th {
+    color: white;
+}
+
+.bg-dark {
+    background-color: #294267 !important;
+}
+
+.fa-dollar:before, .fa-usd:before {
+    content: "\f155";
+    color: #294267;
+}
+
+::-webkit-scrollbar-track {
+    background: #ddd;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #294267;
+}
+
+::-webkit-scrollbar {
+    height: 8px;
+    width: 8px;
+}
+
+.actions-right.block_action .btn {
+    padding: 5px;
+}
+
+.select-print-hidden {
+    display: none !important;
+}
+
+.doughnut {
+    width: 500px !important;
+    margin: 0 auto;
+}
+
+.card-stats {
+    margin-bottom: 15px !important;
+}
+
+/* .dropdown-notification {
+    position: absolute;
+    right: 265px;
+}
+.dropdown-msg {
+    position: absolute;
+    right: 310px;
+} */
+.actions-check .form-check {
+    padding: 0;
+}
+
+.actions-check .form-check .form-check-label {
+    padding-left: 24px;
+}
+
+.table-visualisation-action td:last-child, .table-visualisation-action th:last-child {
+    display: none;
+}
+
+.table-info, .table-info>td, .table-info>th {
+    background-color: #294267;
+}
+
+.dropdown.nav-item a {
+    color: #294267;
+}
+
+.fileUpload {
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.desinationProduit input, .fournisseurInput input {
+    float: left;
+    width: 90%;
+}
+
+.desinationProduit .btn, .fournisseurInput .btn {
+    padding: 0;
+    background: transparent;
+    border: none;
+    color: red;
+    margin-top: 10px;
+}
+
+/* @media (max-width: 1024px) {
+    .dropdown-notification {
+        left: initial;
+    }
+    .exportPdf {
+        display: none;
+    }
+    .chartBL .card {
+        overflow-x: scroll;
+    }
+
+    .chartBL .card .card-body {
+        width: 1000px;
+    }
+    .card-stats.card h4.card-title {
+        font-size: 15px;
+    }
+    .ReactTable {
+        overflow-x: scroll;
+    }
+    
+    .ReactTable table.rt-table {
+        width: 1000px;
+    }
+    .ct-chart {
+        overflow-x: scroll;
+    }
+    .scrollMenu {
+        width: calc(100% - 60px);
+    }
+    nav.navbar.navbar-expand-lg.navbar-light .col-md-3 {
+        width: calc(100% - 230px);
+    }
+    div#position .col-md-6 {
+        width: calc(100% / 2 );
+    }
+    .panel-body{
+        height: 450px;
+    }
+}
+
+@media (max-width: 600px) {
+    .lastDate {
+        float: none !important;
+    }
+    nav.navbar.navbar-expand-lg.navbar-light .col-md-3 {
+        width: calc(100% - 120px);
+    }
+    .hidden-header{
+        display: none;
+    }
+    .dropdown-menu {
+        right: -25px;
+        left: initial;
+    }
+    aside.uploadCSV {
+        display: block !important;
+    }
+
+    aside.uploadCSV button {
+        width: 100%;
+        float: none !important;
+        margin: 0;
+    }
+
+    aside.uploadCSV div {
+        width: 100% !important;
+    }
+} */
+
+/** Association**/
+.panel-association .panel-body ul {
+    padding: 0;
+}
+
+.panel-association .panel-body li {
+    list-style: none;
+    line-height: 2;
+}
+
+.panel-association .panel-body p {
+    background: rgba(97, 188, 123, 0.9);
+    padding: 15px 5px;
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 1000;
+}
+
+.panel-association {
+    position: relative;
+}
+
+.panel-association .btn-blue {
+    background: #337ab7;
+    color: #fff;
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin: 0 auto;
+    float: none;
+    display: block;
+    position: absolute;
+    bottom: 25px;
+    left: 0;
+    right: 0;
+    width: 150px;
+}
+
+.panel-association i.far.fa-star {
+    padding-right: 30px;
+    color: #337ab7;
+}
+
+.panel-association .panel-body {
+    overflow-x: hidden;
+}
+
+.panel-association .panel-body table {
+    width: 100%;
+}
+
+.panel-association .panel-body table thead {
+    background-color: #70c388;
+    color: #fff;
+    border-bottom: 1px solid #70c3881f;
+}
+
+.panel-association .panel-body table tbody {
+    border-bottom: 1px solid #70c3881f;
+}
+
+.panel-association .panel-body table thead th,
+.panel-association .panel-body table tbody td {
+    text-align: center;
+}
+
+/** pop-up-packs **/
+.pop-up-segment {
+    width: 50% !important;
+    padding: 0 !important;
+    overflow-y: scroll !important;
+}
+
+.pop-up-segment .form-control {
+    max-width: initial;
+    margin: 0 auto;
+}
+
+.pop-up-segment h2 {
+    background-color: #337ab7;
+    color: #fff !important;
+}
+
+.pop-up-segment .form-control[readonly] {
+    background: #6fa1cc;
+    color: #fff;
+}
+
+.input-pop-l>div {
+    margin-left: 10px;
+}
+
+.input-pop-r>div {
+    margin-right: 10px;
+}
+
+span.close-pack {
+    position: absolute;
+    right: 24px;
+    cursor: pointer;
+    font-size: 25px;
+    top: 4px;
+}
+
+.title-blue {
+    background-color: #337ab7;
+    margin: 0;
+    color: #fff;
+    padding: 10px;
+
+}
+
+/** Todo list**/
+.Todo {
+    display: flex;
+    margin-bottom: 10px;
+    padding: 1.1rem 3rem;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.Todo-task {
+    position: relative;
+    transition: opacity 0.4s linear;
+}
+
+.Todo-task.completed {
+    opacity: 0.6;
+}
+
+.dateTask {
+    width: 100%;
+    margin-top: 9px;
+}
+
+.Todo-task.completed:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -0.5rem;
+    display: block;
+    width: 0%;
+    height: 2px;
+    background: #fff;
+    animation: strikeitem 0.5s ease-out 0s forwards;
+}
+
+.label-delegue {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+@keyframes strikeitem {
+    to {
+        width: calc(100% + 1rem);
+    }
+}
+
+.Todo-buttons {
+    flex-shrink: 0;
+    padding-left: 0.7em;
+}
+
+.Todo-buttons button {
+    border: none;
+    font-size: 1em;
+    margin: 0.4em;
+    background: none;
+    -webkit-appearance: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+.Todo-edit-form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Todo-edit-form label {
+    min-width: 100%;
+    margin-bottom: 0.5rem;
+    font-size: 1.3rem;
+}
+
+.Todo-edit-form input {
+    flex-grow: 1;
+    border: none;
+    background: #f7f1f1;
+    padding: 0 1.5em;
+    font-size: initial;
+}
+
+.Todo-edit-form button {
+    padding: 0 1.3rem;
+    border: none;
+    background: #254a80;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    margin-top: 10px;
+    cursor: pointer;
+    transform: background 0.2s ease-out;
+}
+
+.Todo-edit-form button:hover {
+    background: #1b3760;
+}
+
+.Todo-edit-form input,
+.Todo-edit-form button {
+    font-family: "Quicksand", sans-serif;
+    height: 3rem;
+    width: 100%;
+}
+
+.TodoList {
+    padding: 0px 30px 20px;
+    background: #254a80;
+    color: #fff;
+    /* margin: 20px;
+    margin: 4rem auto;
+    width: 30%;
+    float: left;
+    max-width: 500px;
+    box-shadow: -20px -20px 0px 0px rgba(100, 100, 100, 0.1) */
+    ;
+}
+
+.TodoList ul {
+    margin-top: 20px;
+    list-style: none;
+}
+
+.TodoList h1 {
+    font-weight: normal;
+    font-size: 2.6rem;
+    letter-spacing: 0.05em;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.TodoList h1 span {
+    display: block;
+    font-size: 0.8rem;
+    margin-bottom: 0.7rem;
+    margin-left: 3px;
+    margin-top: 0.2rem;
+}
+
+.NewTodoForm {
+    margin-top: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.NewTodoForm label {
+    min-width: 100%;
+    margin-bottom: 0.5rem;
+    font-size: 1.3rem;
+    color: white;
+}
+
+.NewTodoForm input {
+    flex-grow: 1;
+    border: none;
+    background: #f7f1f1;
+    padding: 0 1.5em;
+    font-size: initial;
+}
+
+.NewTodoForm button {
+    padding: 0 1.3rem;
+    border: none;
+    background: #254a80;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    margin: 15px auto;
+    cursor: pointer;
+    transform: background 0.2s ease-out;
+}
+
+.NewTodoForm button:hover {
+    background: #1b3760;
+}
+
+.NewTodoForm input,
+.NewTodoForm button {
+    font-family: "Quicksand", sans-serif;
+    height: 3rem;
+    width: 100%;
+}
+
+.TodoList .react-select {
+    color: #000;
+}
+
+.delegueSelect {
+    background-color: #254a80;
+    padding: 20px 30px 5px;
+    color: white;
+    text-align: right;
+    cursor: pointer;
+}
+
+.TodoList h1 {
+    margin: 0;
+}
+
+.header-objectif {
+    width: 50%;
+    margin: 0 auto;
+}
+
+/* .block-action i {
+    margin-left: 5px !important;
+} */
+.div-empty {
+    height: 5px;
+}
+
+.Todo li {
+    width: 100%;
+}
+
+.Todo li input {
+    float: right;
+    margin-top: 4px;
+}
+
+.TodoList ul {
+    margin: 0;
+    padding: 0;
+}
+
+/*** discution ***/
+.panel-default {
+    border-color: #ddd;
+}
+
+.panel {
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    box-shadow: 2px 1px 5px 0px #e3e3e3;
+    border-radius: 4px;
+}
+
+.panel-default>.panel-heading {
+    color: #ffffff;
+    background-color: #337ab7;
+    border-color: #337ab7;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.panel .panel-heading {
+    padding: 10px;
+}
+
+.panel-body {
+    box-shadow: inset 1px 0px 5px 0px #0000001f;
+    background: #fff;
+    padding: 20px;
+    height: 400px;
+    overflow-x: scroll;
+}
+
+.message {
+    margin-right: 5px;
+}
+
+.input-msg {
+    display: inline-block;
+    width: 100%;
+    padding: 0;
+    border: 1px solid #ddd;
+    background: #fff;
+}
+
+.discutions-date {
+    color: #9a9797;
+    font-size: 12px;
+}
+
+.input-msg input {
+    width: 95%;
+    float: left;
+}
+
+.input-msg button {
+    width: 5%;
+    height: 40px;
+    margin: 0;
+}
+
+.dropdown-msg .fa-comments:before {
+    font-size: 20px;
+}
+
+.dropdown-msg, .dropdown-notification, .dropdown-profile {
+    float: right;
+}
+
+.dropdown-msg a {
+    padding-top: 0px !important;
+}
+
+.dropdown-msg a, .dropdown-notification a {
+    position: relative;
+}
+
+.dropdown-msg a span, .dropdown-notification a span {
+    background-color: #fb404b;
+    color: #fff;
+    font-size: 11px;
+    border-radius: 50%;
+    width: 17px;
+    height: 17px;
+    display: block;
+    text-align: center;
+    line-height: 1.5;
+    position: absolute;
+    bottom: 24px;
+    left: 30px;
+}
+
+.card-footer .stats {
+    text-align: left;
+}
+
+.block-invisible {
+    visibility: hidden;
+}
+
+.dropdown-msg a {
+    top: 6px;
+}
+
+.card-stats .icon-big {
+    font-size: 3em;
+    min-height: 64px;
+    color: #254a80;
+}
+
+.doughnut, .barObj {
+    text-align: center;
+}
+
+/** Visualisation action **/
+.segment-action button {
+    margin-left: 10px;
+}
+
+/** notification**/
+
+.enteteDropDown, .enteteDropDown:hover {
+    background-color: #23ccef !important;
+    border-bottom-color: #BCD4E5;
+    color: #fff !important;
+    box-shadow: 1px 1px 1px 1px #ddd;
+    font-size: 13px !important;
+}
+
+.footerDropDown {
+    border-top: 1px solid #E4ECF3;
+    background-color: #23ccef !important;
+    border-top-color: #BCD4E5;
+    color: #fff !important;
+    box-shadow: 1px 1px 1px 1px #ddd;
+    font-size: 13px !important;
+}
+
+img.show-file {
+    height: 500px;
+    width: 100%;
+}
+
+iframe {
+    border: none;
+}
+
+.visualiser {
+    padding: 5px !important;
+    text-align: center;
+}
+
+.visualiser .btn.btn-info {
+    margin-top: 15px;
+}
+
+.dropdown-notification .onScroll {
+    height: 200px;
+    overflow-y: scroll;
+}
+
+.dropdown-notification .dropdown-menu.show {
+    width: 200px;
+}
+
+.dropdown-notification .dropdown-menu.show a {
+    white-space: break-spaces;
+    font-size: 13px;
+    border-bottom: 1px solid #ddd;
+}
+
+.dropdown-msg div a {
+    width: 200px;
+    font-size: 13px;
+    white-space: break-spaces;
+    border-bottom: 1px solid #ddd;
+    margin: 5px 0;
+}
+
+.table-produit {
+    position: absolute
+}
+
+.table-produit>div {
+    position: relative;
+    width: 200px;
+}
+
+.cropContainer {
+    position: relative;
+    width: 100%;
+    height: 1400px;
+    background: #333;
+}
+
+.cropButton {
+    flex-shrink: 0;
+    margin-left: 16;
+}
+
+.controls {
+    padding: 16;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.sliderContainer {
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+.slider {
+    padding: 22px 0px;
+    margin-left: 32;
+}
+
+.box {
+    height: 500px !important;
+    width: calc(100% - 200px) !important;
+    margin: 0 auto;
+    text-align: center;
+    overflow: scroll;
+    float: initial !important;
+}
+
+.img-preview {
+    overflow: hidden;
+}
+
+.legend-excel {
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.red-background {
+    background-color: #fb404b;
+    color: white;
+}
+
+.orange-background {
+    background-color: #ffa534;
+    color: white;
+}
+
+span.danger-legend {
+    background-color: #fb404b;
+    width: 10px;
+    height: 9px;
+    float: left;
+    margin-top: 8px;
+    margin-right: 6px;
+}
+
+span.warning-legend {
+    background-color: #ffa534;
+    width: 10px;
+    height: 9px;
+    float: left;
+    margin-top: 8px;
+    margin-right: 6px;
+}
+
+.orange-background .btn, .red-background .btn {
+    color: white !important;
+}
+
+.responsive-BL .ReactTable .rt-th:nth-child(1) {
+    flex: 0 0 25em;
+
+
+}
+
+.custom-file-label::after {
+    content: "Parcourir";
+    height: auto;
+    line-height: 2;
+}
+
+.custom-file-label {
+    height: 100%;
+}
+
+.responsive-BL .ReactTable .table-bl>div {
+    width: 100%;
+}
+
+.responsive-BL .ReactTable .table-bl {
+    width: 250px;
+}
+
+.responsive-BL .ReactTable .rt-td:nth-child(1) {
+    /* flex: 0 0 20em; */
+    flex: 0 0 300px;
+}
+
+.responsive-BL .ReactTable .table-bl.table-bl135 {
+    width: 135px;
+}
+
+
+div#table-BL .ReactTable {
+    overflow-x: scroll;
+}
+
+div#table-BL .ReactTable table.rt-table {
+    width: 1500px;
+}
+
+/*div#table-BL .ReactTable .table-bl>div {
+    width: 220px;
+}*/
+
+
+div#table-BL .ReactTable .rt-td:nth-child(2) {
+    flex: 0 0 17em;
+    overflow: initial;
+}
+
+div#table-BL .ReactTable .rt-td:nth-child(2) .table-bl>div {
+    width: 250px;
+}
+
+div#table-BL .ReactTable .rt-th:nth-child(2) {
+    flex: 0 0 23em;
+}
+
+.pdf-vs {
+    text-align: center;
+    font-size: 20px;
+}
+
+.detail-payment.card .btn {
+    margin-top: 36px;
+}
+
+.color, .color:hover {
+    background-color: #ffdddd !important;
+    /* height: 90px; */
+    /* color: white; */
+    /* border-bottom: 1px solid #f0efef; */
+}
+
+.color label, .color .form-check .form-check-sign::before, .color .form-check .form-check-sign::after {
+    color: #000 !important;
+}
+
+.custom-file-label::after {
+    content: "Parcourir";
+    height: auto;
+    line-height: 2;
+}
+
+.responsive-BL .ReactTable .rt-th:nth-child(1) {
+    flex: 0 0 27em;
+}
+
+.custom-file-label {
+    height: 100%;
+}
+
+.responsive-BL .ReactTable .table-bl>div {
+    width: 100%;
+}
+
+.responsive-BL .ReactTable .table-bl {
+    width: 280px;
+}
+
+.responsive-BL .ReactTable .rt-td:nth-child(1) {
+    flex: 0 0 20em;
+}
+
+div#table-BL .ReactTable .table-bl.table-bl135>div {
+    width: 90px;
+}
+
+.responsive-BL .ReactTable .table-bl.table-bl135 {
+    width: 135px !important;
+}
+
+.table-header1 .ReactTable .rt-th:nth-child(1) {
+    flex: 0 0 20em;
+}
+
+.table-header1 .ReactTable .rt-td:nth-child(1) {
+    flex: 0 0 15em;
+}
+
+.releve-class .form-check {
+    padding: 0;
+}
+
+.ReactTable .rt-thead .rt-resizable-header-content {
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.pop-up-packs {
+    width: 600px !important;
+    overflow-y: scroll !important;
+    margin: auto !important;
+    top: 0 !important;
+    left: 0 !important;
+}
+
+tr.tr-pack {
+    background-color: #11bfe3;
+}
+
+tr.tr-pack th {
+    color: #fff !important;
+    font-size: 14px !important;
+}
+
+span.pack_action {
+    cursor: pointer;
+    color: #42a8f9;
+    text-decoration: underline !important;
+}
+
+.loader-bl {
+    text-align: center;
+}
+
+.loader-bl img {
+    width: 55px;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.sweet-alert ul {
+    text-align: left;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.sweet-alert li {
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #007bff;
+    line-height: 1.5;
+    font-weight: 700;
+}
+
+span.blue {
+    color: #007bff;
+}
+
+.center {
+    text-align: center;
+}
+
+.react-select__control {
+    background-color: #fff;
+}
+
+.red-four {
+    background-color: red !important;
+    color: white;
+}
+
+/* .test {
+    width: 500px;
+    overflow-x: scroll;
+    margin-left: 5em;
+    overflow-y: visible;
+    padding: 0;
+}
+
+.headcol {
+    position: absolute;
+    width: 5em;
+    left: 0;
+    top: auto;
+    border-top-width: 1px;
+    margin-top: -1px;
+} */
+
+
+/* start fixe first col */
+/* div#table-BL .ReactTable {
+    margin-left: 293px;
+    overflow-y: visible;
+    padding: 0;
+    display: block !important;
+    position: initial !important;
+}
+
+div#table-BL .ReactTable th:first-child, div#table-BL .ReactTable td:first-child {
+    position: absolute;
+    width: 19em;
+    left: 0;
+    top: auto;
+    border-top-width: 1px;
+    flex: initial !important;
+    overflow: initial;
+}
+
+div#table-BL .ReactTable th:first-child {
+    background-color: #23ccef;
+    margin-left: 11px;
+    width: 294px;
+}
+
+div#table-BL .ReactTable .rt-tr.-odd td:first-child {
+    background-color: #f7f7f7;
+    margin-left: 10px;
+}
+
+div#table-BL .ReactTable .rt-tr.-even td:first-child {
+    background-color: #ffffff;
+    margin-left: 10px;
+}
+
+div#table-BL .ReactTable.-striped .rt-tr.-odd:hover {
+    background-color: rgba(0, 0, 0, 0.03) !important;
+}
+
+div#table-BL .ReactTable.-striped .rt-tr.-even:hover {
+    background-color: #ffffff !important;
+}
+
+div#table-BL .table-bl {
+    position: initial;
+} */
+/* end fixe first col */
+
+
+.table-visualisation-action img, .table-style img {
+    margin: 0 auto;
+    width: 50px;
+    height: auto;
+    display: block;
+}

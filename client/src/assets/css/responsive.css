@@ -1,0 +1,119 @@
+@media (max-width: 1300px) {
+    .dropdown-notification {
+        left: initial;
+    }
+    .exportPdf {
+        display: none;
+    }
+    .chartBL .card {
+        overflow-x: scroll;
+    }
+
+    .chartBL .card .card-body {
+        width: 1000px;
+    }
+    .card-stats.card h4.card-title {
+        font-size: 15px;
+    }
+    .ReactTable {
+        overflow-x: scroll;
+    }
+    
+    .ReactTable table.rt-table {
+        width: 1200px;
+    }
+    .ct-chart {
+        overflow-x: scroll;
+    }
+    .scrollMenu {
+        width: calc(100% - 60px);
+    }
+    nav.navbar.navbar-expand-lg.navbar-light .col-md-3 {
+        width: calc(100% - 230px);
+    }
+    div#position .col-md-6 {
+        width: calc(100% / 2 );
+    }
+    
+    .pop-up-segment{
+        width: calc(100% - 200px)!important;
+    }
+    .list-association {
+        flex: 0 50%;
+        max-width: 50%;
+    }
+    #iframe {
+        overflow: scroll;
+    }
+    
+    #iframe iframe {
+        width: 1500px;
+    }
+    /* .panel-body{
+        height: 500px;
+    }
+    .panel-association .btn-blue {
+        bottom: 15px;
+    } */
+    /* .panel-association .panel-body p {
+        font-size: 12px;
+    }
+    .panel-association .panel-body li,
+    .panel-association .panel-body table thead th, .panel-association .panel-body table tbody td {
+        font-size: 12px;
+        font-weight: bold;
+    } */
+}
+
+@media (max-width: 500px) {
+    .scrollMenu {
+        position: relative;
+    }
+    div#position .col-md-6 {
+        width: calc(100%);
+    }
+    .lastDate {
+        float: none !important;
+    }
+    nav.navbar.navbar-expand-lg.navbar-light .col-md-3 {
+        width: calc(100% - 55px);
+        margin-bottom: 5px;
+    }
+    .nav-link{
+        padding: 5px 10px;
+    }
+    .hidden-header{
+        display: none;
+    }
+    .dropdown-menu {
+        right: -25px;
+        left: initial;
+    }
+    aside.uploadCSV {
+        display: block !important;
+    }
+
+    aside.uploadCSV button {
+        width: 100%;
+        float: none c;
+        margin: 0;
+    }
+
+    aside.uploadCSV div {
+        width: 100% !important;
+    }
+    .dropdown-msg a span, .dropdown-notification a span {
+        bottom: 10px;
+        left: 20px;
+    }
+    div#table-BL .ReactTable th:first-child, div#table-BL .ReactTable td:first-child {
+        position: initial;
+    }
+    div#table-BL .ReactTable{
+        margin-left: 0;
+    }
+
+}
+.update-releve .react-select .react-select__control{
+    width: 150px !important
+}
