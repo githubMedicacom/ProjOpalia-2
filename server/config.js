@@ -1,8 +1,8 @@
 var config = {
-  base: "opa_server", 
+  base: "opalia", 
   root: "root",
   host: "localhost",
-  password: "",
+  password: "your_root_password",
   port: "3306",
 
   /* base: "opalia",
