@@ -1,0 +1,23 @@
+version: '3.0'
+services:
+  backend:
+   build:
+    context: /home/ubuntu/workspace/ProjOpalia-2/server
+   container_name: backend
+   command: npm start 
+   ports:
+    -3000:3000/tcp
+   network_mode: host
+   tty: true
+  frontend:
+   build:
+    context: /home/ubuntu/workspace/ProjOpalia-2/client
+   container_name: frontend
+   command: npm start
+   ports:
+    -6000:6000/tcp
+   network_mode: host
+   tty: true
+
+
+
