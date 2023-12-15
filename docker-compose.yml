@@ -3,21 +3,51 @@ services:
   backend:
    build:
     context: /home/ubuntu/workspace/ProjOpalia-2/server
-   container_name: backend
-   command: npm start 
+    dockerfile: /home/ubuntu/workspace/ProjOpalia-2/server/Dockerfile
+   container_name: backend 
+   image: backimage 
+   command: npm start
+   volumes:
+      - /home/ubuntu/workspace/ProjOpalia-2/server:/home/ubuntu/workspace/ProjOpalia-2/server 
    ports:
     -3000:3000/tcp
-   network_mode: host
+   network:
+    - mynetwork
    tty: true
+   depends_on:
+    - myphpadmin
   frontend:
    build:
     context: /home/ubuntu/workspace/ProjOpalia-2/client
+    dockerfile: /home/ubuntu/workspace/ProjOpalia-2/client/Dockerfile
    container_name: frontend
+   image:  frontimage 
    command: npm start
+   volumes:
+    - /home/ubuntu/workspace/ProjOpalia-2/client:/home/ubuntu/workspace/ProjOpalia-2/client
    ports:
     -6000:6000/tcp
-   network_mode: host
+   network:
+    - mynetwork
    tty: true
-
-
-
+   depends_on:
+    - backend
+  myphpadmin:
+    image: phpmyadmin/phpmyadmin:latest
+    environment:
+      - PMA_ARBITRARY=1
+    ports:
+      - "8081:80"
+    depends-on:
+      - mysql
+  mysql:
+    image: mysql:latest
+    environment:
+      MYSQL_ROOT_PASSWORD: your_root_password
+      MYSQL_DATABASE: opalia
+      MYSQL_USER: root
+      MYSQL_PASSWORD: your_root_password
+    ports:
+      - "3306:3306"
+    networks:
+     - mynetwork
