@@ -11,7 +11,7 @@ services:
       - /home/ubuntu/workspace/ProjOpalia-2/server:/home/ubuntu/workspace/ProjOpalia-2/server 
    ports:
     - "3000:3000"
-   network:
+   networks:
     - mynetwork
    tty: true
    depends_on:
@@ -27,7 +27,7 @@ services:
     - /home/ubuntu/workspace/ProjOpalia-2/client:/home/ubuntu/workspace/ProjOpalia-2/client
    ports:
     - "6000:6000"
-   network:
+   networks:
     - mynetwork
    tty: true
    depends_on:
