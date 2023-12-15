@@ -10,7 +10,7 @@ services:
    volumes:
       - /home/ubuntu/workspace/ProjOpalia-2/server:/home/ubuntu/workspace/ProjOpalia-2/server 
    ports:
-    -3000:3000/tcp
+    - "3000:3000"
    network:
     - mynetwork
    tty: true
@@ -26,7 +26,7 @@ services:
    volumes:
     - /home/ubuntu/workspace/ProjOpalia-2/client:/home/ubuntu/workspace/ProjOpalia-2/client
    ports:
-    -6000:6000/tcp
+    - "6000:6000"
    network:
     - mynetwork
    tty: true
