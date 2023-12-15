@@ -38,7 +38,7 @@ services:
       - PMA_ARBITRARY=1
     ports:
       - "8081:80"
-    depends-on:
+    depends_on:
       - mysql
   mysql:
     image: mysql:latest
@@ -53,4 +53,4 @@ services:
      - mynetwork
   networks:
    mynetwork:
-    external: true    
+    external: true
