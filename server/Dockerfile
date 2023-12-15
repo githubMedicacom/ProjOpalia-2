@@ -2,7 +2,7 @@
 FROM node:14.17.0
 
 # Set the working directory inside the container
-WORKDIR /server
+WORKDIR /home/ubuntu/workspace/ProjOpalia-2/server
 
 # Copy package.json and package-lock.json to the container
 COPY package*.json ./
